@@ -6,7 +6,7 @@ const userName: string = "Eve";
 const age: number = 30;
 const isActive: boolean = true;
 
-console.log(`[1] userName: ${userName}, age: ${age}, isAcitve: ${isActive}`);
+console.log(`[1] userName: ${userName}, age: ${age}, isActive: ${isActive}`);
 
 // --- [2] Type inference: TypeScript figures out the type automatically ---
 // When you assign a value at declaration, TypeScript infers the type.
@@ -20,7 +20,7 @@ const isLoggedIn = false; // TypeScript infers: boolean
 // When the value is unknown at declaration time, annotate explicitly.
 
 let description: string; // No value yet — annotation is required here
-description = "TypeScript leaner";
+description = "TypeScript learner";
 
 console.log(`[2] city: ${city}, score: ${score}, description: ${description}`);
 
@@ -37,7 +37,7 @@ function addTax(price: number, taxRate: number): number {
 }
 
 function logStatus(message: string): void {
-  // VOid means "this function returns nothing"
+  // Void means "this function returns nothing"
   console.log(`[STATUS] ${message}`);
 }
 
